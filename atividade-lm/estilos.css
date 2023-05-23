@@ -1,0 +1,93 @@
+body{
+    font-family: 'Fredoka One', cursive;
+    font-size: 19px;
+    color: rgb(71, 25, 236);
+    line-height: 2.0;
+    background-color:lightblue
+
+    
+}
+.nome{
+    text-align: center; 
+
+}
+.titulo{
+    text-align: center;
+}
+
+.um{
+    text-align: center;
+}
+
+.Conteiner{
+    margin: 0 auto;
+    width: 1500px;
+    padding: 20px;
+    background-color:rgb(255, 158, 147);
+    border: 5px solid #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.card{
+    float: left;;
+    padding: 10px;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    
+}
+
+.card img{
+    float: left;
+    margin: 10px;
+    border: 5px solid #fff;
+    border-radius: 15px;
+
+
+}
+
+.button{
+    text-decoration: none;
+    background-color: lightblue;
+    color: rgb(71, 25, 236);
+    padding: 15px;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    font-weight: bold;
+
+}
+.link{
+    margin-top: 20px;
+    text-align: right;
+    
+}
+.clear{
+    clear: both ;
+    
+
+}
+
+.fim{
+    padding: 10px;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    border: 5px solid #fff;
+    border-radius: 15px;
+}
+.fim img{
+    margin: 10px;
+    border: 5px solid #fff;
+    border-radius: 15px;
+
+}
+
+.bob{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    
+}
+

@@ -153,7 +153,7 @@ article{
 .albuns{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, auto));
-    padding: 50px 150px;
+    padding: 100px 150px;
     gap: 40px;
     background-color: var(--bg-color3) ;
     position: relative;
@@ -178,7 +178,7 @@ h2{
     border-radius: 1rem;
     box-shadow: 5px 5px 30px #000000;
     transition: all ease .55s;
-    height: 70%;
+    height: 80%;
 }
 
 .box img{
@@ -188,6 +188,11 @@ h2{
 
 .box:hover{
     transform: translateY(-5px) scale(1.1);
+}
+
+.Loja{
+    background-color: var(--bg-color2);
+
 }
 
 .RedesSociais{

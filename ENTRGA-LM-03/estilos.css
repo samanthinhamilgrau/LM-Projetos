@@ -29,7 +29,7 @@ body{
 }
 
 a{
-    color:var(--other-color);
+    color:var(--text-color2);
 }
 
 header{
@@ -180,7 +180,7 @@ article{
     border-radius: 1rem;
     box-shadow: 5px 5px 30px #000000;
     transition: all ease .55s;
-    height: 80%;
+    height: 90%;
 }
 
 .box img{
@@ -190,6 +190,20 @@ article{
 
 .box:hover{
     transform: translateY(-5px) scale(1.1);
+}
+
+.box h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box ul{
+    margin-top: 20px;
+}
+
+.box li{
+    padding-top: 5px;
 }
 
 .loja{
@@ -212,7 +226,8 @@ article{
 
 .loja p{
     color: var(--text-color2);
-    font-size: 20px;
+    font-size: 33px;
+    text-align: center;
     font-weight: 400;
     line-height: 1;
     max-width: 500px;
@@ -260,16 +275,5 @@ article{
 .icons{
     text-align: center;
     font-size: 50px;
-    color: var(--text-color1);
+    
 }
-
-
-
-
-
-
-
-
-
-
-

@@ -155,12 +155,26 @@ article{
     max-width: 700px;
     margin-bottom: 4rem; 
     font-size: 20px;   
+    margin-right: 50px;
 }
 
 
 .img{
     height: 750px;
     border-radius: 10%;
+}
+
+#camila-fundo{
+    background-image:url(./img/camila.jpg);
+    width: 500px;
+    height: 750px;
+    border-radius: 20px;
+}
+
+#camila-fundo:hover{
+    background-image:url(./img/camilafoto.jpg);
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
 }
 
 .albuns{
@@ -187,7 +201,6 @@ article{
 .box img{
     border-radius: 20px;
     height: 200px;
-    
 }
 
 .box:hover{
@@ -207,6 +220,8 @@ article{
 .box li{
     padding-top: 5px;
 }
+
+
 
 .loja{
     display:grid;
